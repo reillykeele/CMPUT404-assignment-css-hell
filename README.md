@@ -12,6 +12,14 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Changes to Gutenberg HTML
+=================
+- Changed all table of contents to tables, if they were not already
+- Added some horizontal rules between sections 
+- Applied the 'chapter' class to all chapter divs in 'The Great Gatsby'
+- Change links to relative 
+- Added 'verse' class to The Iliad
+
 License/Copyright
 =================
 

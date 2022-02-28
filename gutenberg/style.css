@@ -1,0 +1,214 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-variant: small-caps;
+    text-align: center;
+    margin: 3em 0;
+}
+
+p {
+    margin: 0;
+    text-indent: 1em;
+    margin-bottom: 1em;
+}
+
+p.continued,
+p:first-child {
+    text-indent: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid;
+    height: 0;
+    margin: 1.5em auto;
+    width: 85%;
+}
+
+.chapter hr {
+    width: 65%;
+}
+
+cite {
+    display: block;
+    font-style: normal;
+    font-variant: small-caps;
+    margin-top: 1em;
+    text-align: right;
+}
+
+b {
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+.toc {
+    margin-right: auto;
+    margin-left: auto
+}
+
+.toc h2 {
+    margin-bottom: 1em;
+}
+
+.toc ol {
+    display: inline-block;
+    list-style: none;
+    margin: auto;
+    padding-left: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header {
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.valediction {
+    margin-top: 1em;
+    text-align: right;
+}
+
+.signature {
+    font-variant: small-caps;
+    text-align: right;
+}
+
+table {
+    margin: 1em 2em;
+}
+
+td {
+    padding: 0 .5em;
+    vertical-align: bottom;
+}
+
+td.right {
+    text-align: center;
+}
+
+.dedication {
+    font-variant: small-caps;
+    text-align: center;
+    margin: 3em auto;
+    max-width: 80%;
+}
+
+.verse {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.verse p {
+    text-indent: 0;
+}
+
+.verse p span {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+.verse p span.i1 {
+    text-indent: -1em;
+    padding-left: 2em;
+}
+
+.verse p span.i2 {
+    text-indent: -1em;
+    padding-left: 3em;
+}
+
+.epigraph {
+    font-style: italic;
+    margin: 3em auto;
+    max-width: 40em;
+}
+
+p.poem {
+    text-indent: 0%;
+    margin-left: 10%;
+    font-size: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p.letter {
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p.noindent {
+    text-indent: 0%
+}
+
+p.center {
+    text-align: center;
+    text-indent: 0em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p.right {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p.footnote {
+    font-size: 90%;
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+sup {
+    vertical-align: top;
+    font-size: 0.6em;
+}
+
+div.fig {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p.caption {
+    font-weight: bold;
+    text-align: center;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+}
